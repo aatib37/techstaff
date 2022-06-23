@@ -502,3 +502,51 @@
             left: 220px;
             top: 120px;
         }
+        
+        .dout1 {
+            position: absolute;
+            top: 360px;
+            left: 180px;
+        }
+        
+        .dout2 {
+            position: absolute;
+            left: 980px;
+            top: 700px;
+        }
+        
+        .ellipse1 {
+            position: absolute;
+            top: 180px;
+            left: 200px;
+        }
+        
+        .ellipse2 {
+            position: absolute;
+            top: 500px;
+            left: 1085px;
+        }
+        
+        .ellipse3 {
+            position: absolute;
+            top: 120px;
+            left: 180px;
+        }
+        
+        .ellipse4 {
+            position: absolute;
+            top: 480px;
+            left: 940px;
+        }
+        
+        .image12 {
+            position: absolute;
+            top: -65px;
+            left: 186px;
+        }
+        
+        .image13 {
+            position: absolute;
+            top: 530px;
+            left: 810px;
+        }
