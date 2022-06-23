@@ -214,8 +214,6 @@
             top: 50px;
         }
         
-        .flex {}
-        
         .box1 {
             position: absolute;
             width: 275px;
@@ -305,8 +303,6 @@
             top: 400px;
         }
         
-        .part3 {}
-        
         .ch {
             position: absolute;
             top: 950px;
@@ -322,4 +318,187 @@
             position: absolute;
             top: 850px;
             left: 170px;
+        }
+        
+        .part3_1 {
+            position: absolute;
+            left: 820px;
+            top: 940px;
+            width: 543px;
+            height: 371px;
+        }
+        
+        .heding {
+            width: 543px;
+            height: 156px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 137.5%;
+            color: rgba(0, 0, 0, 0.7);
+        }
+        
+        .heding span {
+            color: #5548D6;
+        }
+        
+        .p2 {
+            width: 460px;
+            height: 69px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            color: #697B98;
+        }
+        
+        .p3 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 10px;
+            width: 582px;
+            height: 40px;
+            font-weight: 400;
+            font-size: 15px;
+            color: #193766;
+        }
+        
+        .btn1 {
+            padding: 23px 51px;
+            background: #5548D6;
+            border-radius: 100px;
+            width: 226px;
+            height: 68px;
+            color: white;
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        
+        .rect3 {
+            position: absolute;
+            top: 1650px;
+            left: 10px;
+        }
+        
+        .ff {
+            position: absolute;
+            top: 1850px;
+            left: 25px;
+        }
+        
+        .st {
+            position: absolute;
+            top: 1850px;
+            left: 930px;
+        }
+        
+        .allimage {
+            position: absolute;
+            top: 1880px;
+            left: 50px;
+            padding: 15px;
+        }
+        
+        .imagel {
+            width: 210px;
+            height: 126.67px;
+            background: url(image.png);
+            filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+        }
+        
+        .rectbox {
+            position: absolute;
+            width: 1167.11px;
+            height: 619px;
+            left: 115px;
+            top: 2098px;
+            background: #FFFFFF;
+            box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+        }
+        
+        .image7 {
+            margin-top: 23px;
+        }
+        
+        .improve {
+            position: absolute;
+            left: 550px;
+            top: 40px;
+        }
+        
+        .subim1 {
+            width: 501px;
+            height: 151px;
+            margin-top: 20px;
+            background: #FFFFFF;
+            box-shadow: -2px -2px 15px rgba(85, 72, 214, 0.1), 4px 4px 15px rgba(85, 72, 214, 0.1);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 13px;
+            column-gap: 20px;
+        }
+        
+        .subim2 {
+            width: 501px;
+            height: 147px;
+            margin-top: 20px;
+            background: #FFFFFF;
+            box-shadow: -2px -2px 15px rgba(85, 72, 214, 0.1), 4px 4px 15px rgba(85, 72, 214, 0.1);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: px;
+            gap: 20px;
+        }
+        
+        .hed2 {
+            width: 419px;
+            height: 110px;
+            font-weight: 500;
+            font-size: 37px;
+            line-height: 55px;
+            color: #000000;
+            margin-top: -10px;
+        }
+        
+        .subp {
+            font-weight: 500;
+            font-size: 27px;
+            line-height: 60px;
+            color: rgba(0, 0, 0, 0.8);
+        }
+        
+        .p4 {
+            width: 366px;
+            height: 70px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+            color: #666666;
+            margin-top: -10px;
+        }
+        
+        .part5 {
+            position: absolute;
+            top: 2900px;
+        }
+        
+        .image10 {
+            position: absolute;
+            left: 10px;
+        }
+        
+        .image11 {
+            position: absolute;
+            left: 220px;
+            top: 120px;
         }
