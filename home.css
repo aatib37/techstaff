@@ -6,16 +6,20 @@
         
         .rectangle {
             position: relative;
-            width: auto;
+            width: 1508px;
             height: 888px;
             background: #000000;
             margin: 10px;
         }
         
+        .bar {
+            display: none;
+        }
+        
         .tech {
             position: relative;
             height: 650px;
-            width: 250px;
+            width: auto;
             margin-top: -60px;
         }
         
