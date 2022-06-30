@@ -6,14 +6,14 @@
         
         .rectangle {
             position: relative;
-            width: 1508px;
+            width: 1513px;
             height: 888px;
             background: #000000;
             margin: 10px;
         }
         
         .bar {
-            display: none;
+            display: hidden;
         }
         
         .tech {
@@ -33,6 +33,7 @@
         li {
             display: inline-block;
             padding: 0px 15px;
+            width: auto;
         }
         
         li a {
@@ -109,7 +110,7 @@
         
         .img2 {
             position: absolute;
-            width: 600px;
+            width: auto;
             height: 750px;
             left: 779px;
             top: 195px;
@@ -218,12 +219,17 @@
             top: 50px;
         }
         
+        .squre1 {
+            display: flex;
+            gap: 20px;
+            position: relative;
+            left: 600px;
+            top: 100px;
+        }
+        
         .box1 {
-            position: absolute;
             width: 275px;
             height: 258px;
-            left: 605px;
-            top: 100px;
             background: linear-gradient(135deg, #6B73FF 0%, #000562 100%);
             box-shadow: 0px 40px 60px rgba(13, 14, 37, 0.1);
             border-radius: 10px;
@@ -232,31 +238,22 @@
         }
         
         .box2 {
-            position: absolute;
             width: 275px;
             height: 258px;
-            left: 893px;
-            top: 100px;
             border-radius: 10px;
             padding: 35px;
         }
         
         .box3 {
-            position: absolute;
             width: 275px;
             height: 258px;
-            left: 605px;
-            top: 366px;
             border-radius: 10px;
             padding: 35px;
         }
         
         .box4 {
-            position: absolute;
             width: 276px;
             height: 258px;
-            left: 892px;
-            top: 366px;
             background: linear-gradient(135deg, #6B73FF 0%, #000562 100%);
             box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
@@ -318,16 +315,15 @@
             top: 850px;
         }
         
-        .intro {
-            position: absolute;
-            top: 850px;
-            left: 170px;
+        .part3 {
+            display: flex;
+            column-gap: 40px;
+            position: relative;
+            top: 320px;
+            left: 200px;
         }
         
-        .part3_1 {
-            position: absolute;
-            left: 820px;
-            top: 940px;
+        .part3_2 {
             width: 543px;
             height: 371px;
         }
@@ -422,6 +418,8 @@
         }
         
         .rectbox {
+            display: flex;
+            column-gap: 50px;
             position: absolute;
             width: 1167.11px;
             height: 619px;
@@ -430,16 +428,8 @@
             background: #FFFFFF;
             box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
             border-radius: 20px;
-        }
-        
-        .image7 {
-            margin-top: 23px;
-        }
-        
-        .improve {
-            position: absolute;
-            left: 550px;
-            top: 40px;
+            padding-top: 23px;
+            padding-left: 10px;
         }
         
         .subim1 {

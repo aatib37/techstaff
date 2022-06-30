@@ -1,15 +1,23 @@
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 700px) {
     nav ul {
         display: none;
     }
     .bar {
-        position: absolute;
-        color: #ffffff;
-        left: 400px;
-        cursor: pointer;
+        color: aliceblue;
+    }
+    .rectangle {
+        width: auto;
+        overflow: hidden;
+    }
+    .dot {
+        display: none;
     }
     .sub1 {
+        width: auto;
+    }
+    .sub2 {
         display: block;
+        width: auto;
     }
     .img2 {
         display: none;
@@ -20,10 +28,153 @@
     .dot {
         margin-right: 200px;
     }
-    .content2 {
-        display: block;
+    .it {
+        margin: 10px;
     }
     .squre {
         display: flex;
+        flex-direction: column;
+    }
+    .squre1 {
+        display: block;
+        position: relative;
+        top: 550px;
+        left: -100px;
+    }
+    .ellipse {
+        display: none;
+    }
+    .part3 {
+        display: block;
+        position: relative;
+        top: 1300px;
+        left: 0%;
+        padding: 20px;
+    }
+    .re45 {
+        display: none;
+    }
+    .ch {
+        width: auto;
+    }
+    /* part4 */
+    .rect3 {
+        width: 549px;
+        height: 500px;
+        position: relative;
+        top: 1500px;
+        margin: auto;
+    }
+    .st {
+        display: none;
+    }
+    .ch {
+        display: none;
+    }
+    .allimage {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 50px;
+        position: relative;
+        top: 1050px;
+        left: 0%;
+    }
+    .sub1 {
+        width: auto;
+        margin: auto;
+    }
+    .sub2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .rectbox {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: auto;
+        position: relative;
+        left: 0px;
+        text-align: center;
+        top: 1200px;
+    }
+    .image7 {
+        margin: 0px;
+    }
+    .improve {}
+    .p4 {
+        margin: auto;
+    }
+    .p5 {
+        margin: auto;
+    }
+    .hed2 {
+        margin-left: 25px;
+    }
+    .subim1 {
+        display: block;
+        text-align: center;
+        height: auto;
+    }
+    .subim2 {
+        display: block;
+        text-align: center;
+        height: auto;
+    }
+    /* part5 */
+    .part5 {
+        position: relative;
+        top: 1250px;
+    }
+    .image10 {
+        width: 500px;
+        height: 1800px;
+    }
+    .image12 {
+        position: relative;
+        left: 10px;
+    }
+    .part5_1 {
+        position: relative;
+        top: -90px;
+        left: 30px;
+    }
+    .part5_2 {
+        position: relative;
+        top: 100px;
+        left: 30px;
+    }
+    .image13 {
+        position: absolute;
+        left: 0px;
+        top: 1300px;
+    }
+    .image11 {
+        display: none;
+    }
+    .dout1 {
+        display: none;
+    }
+    .dout2 {
+        display: none;
+    }
+    .ellipse1 {
+        display: none;
+    }
+    .ellipse2 {
+        display: none;
+    }
+    .ellipse3 {
+        display: none;
+    }
+    .ellipse4 {
+        display: none;
+    }
+    /* part6 */
+    .part6 {
+        display: none;
+    }
+    .part7 {
+        display: none;
     }
 }
