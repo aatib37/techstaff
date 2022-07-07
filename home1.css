@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width: 700px) {
+@media screen and (min-width: 300px) and (max-width: 800px) {
     .bar {
         color: aliceblue;
     }
@@ -95,7 +95,7 @@
     }
     /* part4 */
     .rect3 {
-        width: 549px;
+        width: auto;
         height: 500px;
         position: relative;
         top: 1500px;
